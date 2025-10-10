@@ -16,72 +16,91 @@ const PregnancyTracker = () => {
 
   const weeklyGuide = {
     12: {
-      babySize: "Plum",
-      babyLength: "2.1 inches",
-      babyWeight: "0.49 oz",
+      babySize: "Small Lemon",
+      babyLength: "5.5 cm",
+      babyWeight: "14 grams",
       developments: [
-        "Baby's reflexes are developing - they can curl their toes and open and close fingers",
-        "Fingernails and toenails are beginning to form",
-        "The digestive system is practicing contractions",
-        "Bone marrow is making white blood cells"
+        "Reflexes are starting - tiny fingers opening and closing, toes curling",
+        "Bone marrow is busy making white blood cells",
+        "The little one is slowly learning and growing inside you",
+        "Baby is moving quietly, though you won't feel it yet"
       ],
       motherChanges: [
-        "Morning sickness may start to ease",
-        "Energy levels might increase",
-        "Your uterus is growing above your pelvis",
-        "You may notice increased appetite"
+        "Fatigue - you might feel tired or sleepy, it's completely normal",
+        "Nausea - some queasy moments may still appear, eat small meals and sip water often",
+        "Breast tenderness or swelling - your body is preparing for feeding your baby",
+        "Bloating or gas - a little discomfort can happen, eat light and frequently",
+        "Mood swings - feeling emotional or irritable sometimes is normal",
+        "Mild cramps - occasional tugs or pulls in your lower belly are okay",
+        "Frequent urination - your bladder is adjusting to the little one",
+        "Food cravings or aversions - all part of the process, trust your instincts"
       ],
       tips: [
-        "Stay hydrated - aim for 8-10 glasses of water daily",
-        "Continue taking prenatal vitamins",
-        "Start thinking about maternity clothes",
-        "Schedule your second prenatal visit"
+        "Drink plenty of water, aim for 8-10 glasses",
+        "Have small, nutritious meals regularly",
+        "Short walks can help with digestion and energy",
+        "Rest whenever your body asks for it",
+        "Wear soft, comfortable clothes that don't feel tight",
+        "Don't stress over every tiny symptom… most of it is perfectly normal 🌷",
+        "Ayurvedic tip: A small glass of warm turmeric milk at night can be soothing and comforting"
       ]
     },
     20: {
-      babySize: "Banana",
-      babyLength: "6.5 inches",
-      babyWeight: "10.58 oz",
+      babySize: "Small Mango",
+      babyLength: "16 cm",
+      babyWeight: "300 grams",
       developments: [
-        "You might feel baby's movements (quickening)",
-        "Baby can hear sounds from outside",
-        "Hair is growing on the head",
-        "Baby's skin is developing protective layers"
+        "Baby's senses are awakening; they can hear sounds and even react to light",
+        "Tiny hair called lanugo covers the skin",
+        "Movements become noticeable - soon you'll feel gentle kicks and flutters"
       ],
       motherChanges: [
-        "Your belly is clearly showing",
-        "You may experience backaches",
-        "Increased blood volume may cause nosebleeds",
-        "Your center of gravity is shifting"
+        "You might feel more energetic now, though occasional fatigue is normal",
+        "Baby kicks or flutters may start… it's a wonderful feeling",
+        "Mild backaches - your uterus is growing, so pressure on the lower back happens",
+        "Round ligament twinges in the belly or sides may appear",
+        "Slight swelling in feet or hands - rings or shoes may feel tight",
+        "Mood swings - feeling emotional or irritable is completely normal",
+        "Increased appetite and food cravings or aversions may continue",
+        "Skin changes like darkening of areolas or linea nigra may appear"
       ],
       tips: [
-        "Sleep on your left side for better circulation",
-        "Consider a pregnancy pillow for comfort",
-        "Schedule your anatomy scan ultrasound",
-        "Start pelvic floor exercises"
+        "Keep sipping water throughout the day, around 8-10 glasses",
+        "Focus on balanced meals with good protein, iron, and calcium",
+        "Gentle walks or prenatal yoga can ease backaches and help circulation",
+        "Choose comfortable maternity clothes and supportive shoes",
+        "Rest whenever your body asks for it",
+        "Avoid stress - meditation or deep breathing can help",
+        "Ayurvedic tip: A small cup of warm ginger water in the morning can support digestion and comfort"
       ]
     },
     30: {
-      babySize: "Cabbage",
-      babyLength: "15.7 inches",
-      babyWeight: "2.91 lbs",
+      babySize: "Large Cabbage",
+      babyLength: "38 cm",
+      babyWeight: "1.3 kg",
       developments: [
-        "Baby's brain is developing rapidly",
-        "Eyes can open and close",
-        "Bone marrow is producing red blood cells",
-        "Baby is practicing breathing movements"
+        "Baby's lungs are practicing breathing, and brain growth is rapid",
+        "Senses like hearing and sight are sharpening",
+        "Kicks and movements are strong and clearly noticeable now"
       ],
       motherChanges: [
-        "You may feel short of breath",
-        "Heartburn might increase",
-        "Braxton Hicks contractions may begin",
-        "You might notice swelling in feet and ankles"
+        "Fatigue can be pronounced - extra weight and active baby take energy",
+        "You may feel shortness of breath as the uterus presses on your diaphragm",
+        "Backaches and pelvic pressure are common - gentle support helps",
+        "Swelling in feet, ankles, or hands may appear",
+        "Frequent urination continues",
+        "Mild, irregular Braxton Hicks contractions may start - completely normal",
+        "Heartburn or indigestion may occur - eat lighter meals",
+        "Mood swings and pre-delivery anxiety are natural"
       ],
       tips: [
-        "Eat smaller, more frequent meals",
-        "Elevate your feet when resting",
-        "Practice relaxation techniques for labor",
-        "Start thinking about your birth plan"
+        "Keep sipping water throughout the day, 8-10 glasses",
+        "Eat small, frequent, nutritious meals to stay comfortable",
+        "Gentle stretches, prenatal yoga, or short walks help back and circulation",
+        "Wear supportive shoes and a maternity belt if needed",
+        "Rest whenever your body asks for it",
+        "Practice deep breathing or meditation to relax and calm the mind",
+        "Ayurvedic tip: A warm cup of fennel water after meals can aid digestion and comfort"
       ]
     }
   };
@@ -117,41 +136,42 @@ const PregnancyTracker = () => {
     {
       category: "Nutrition",
       tips: [
-        "Eat folate-rich foods (leafy greens, beans, citrus)",
-        "Include iron sources (lean meat, spinach, fortified cereals)",
-        "Get enough calcium (dairy, fortified plant milk, almonds)",
-        "Choose complex carbohydrates for sustained energy",
-        "Include omega-3 fatty acids (salmon, walnuts, chia seeds)"
+        "Eat small, frequent meals to keep your digestion easy and energy steady",
+        "Make sure each meal has dal, seasonal vegetables, whole grains, and fruits",
+        "Keep sipping water throughout the day; warm water or lemon water in the morning is comforting",
+        "Include calcium-rich foods like milk, curd, and paneer to keep bones and teeth strong",
+        "Avoid overly fried or spicy foods; if you want something sweet, a handful of dry fruits or jaggery works well"
       ]
     },
     {
-      category: "Exercise",
+      category: "Exercises",
       tips: [
-        "Aim for 30 minutes of moderate activity most days",
-        "Try prenatal yoga for flexibility and relaxation",
-        "Swimming is excellent for joint-friendly exercise",
-        "Practice pelvic floor exercises (Kegels)",
-        "Listen to your body and don't overexert"
+        "Short daily walks around your home or garden keep your body active and mood fresh",
+        "Gentle prenatal yoga - cat-cow, pelvic tilts, legs-up-the-wall pose - is very helpful",
+        "Stretch your back and shoulders lightly to release tension",
+        "Avoid lifting anything heavy or sudden jerky movements",
+        "Deep breathing exercises can help you relax and improve oxygen flow to your baby"
       ]
     },
     {
       category: "Self-Care",
       tips: [
-        "Get 7-9 hours of sleep per night",
-        "Stay hydrated throughout the day",
-        "Manage stress through meditation or deep breathing",
-        "Moisturize skin to help prevent stretch marks",
-        "Take time for activities you enjoy"
+        "Take short naps whenever you feel tired… your body deserves it",
+        "Keep a warm compress handy for your back or belly if uncomfortable",
+        "Light massages with coconut or mustard oil on lower back or feet can ease tension",
+        "Use a supportive pillow when sleeping, especially lying on your side",
+        "Moisturize skin daily to help prevent stretch marks; gentle massage with coconut or almond oil is nice",
+        "Spend a few minutes in meditation, journaling, or simply quiet reflection daily"
       ]
     },
     {
       category: "Safety",
       tips: [
-        "Avoid hot tubs and saunas",
-        "Wear your seatbelt properly (under and over belly)",
-        "Use gentle, pregnancy-safe cleaning products",
-        "Avoid changing cat litter (toxoplasmosis risk)",
-        "Stay away from paint fumes and strong chemicals"
+        "Don't stand for too long; take breaks and sit when tired",
+        "Wear comfortable shoes to avoid slips or ankle strain",
+        "Avoid raw or undercooked foods to protect yourself from infections",
+        "Wash your hands before meals and after coming from outside; hygiene matters",
+        "Be careful on stairs or while lifting anything… a little caution goes a long way"
       ]
     }
   ];
@@ -203,60 +223,89 @@ const PregnancyTracker = () => {
 
   const renderHome = () => (
     <div className="space-y-8">
-      <div className="text-center space-y-4">
-        <div className="w-20 h-20 rounded-2xl bg-pink-100 flex items-center justify-center mx-auto">
-          <Baby className="w-10 h-10 text-pink-600" />
+      <div className="text-center space-y-4 mb-12">
+        <div className="w-24 h-24 rounded-full bg-gradient-to-br from-pink-400 to-pink-600 flex items-center justify-center mx-auto shadow-lg">
+          <Baby className="w-12 h-12 text-white" />
         </div>
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900">Pregnancy Mode</h1>
+        <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 to-pink-400 bg-clip-text text-transparent">
+          Pregnancy Mode
+        </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Your comprehensive pregnancy companion with week-by-week guidance and prenatal care support.
+          Your comprehensive pregnancy companion with week-by-week guidance and prenatal care support
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-6">
-        <button
-          onClick={() => setCurrentView('weekly')}
-          className="p-8 bg-white border-2 border-pink-200 rounded-2xl hover:shadow-lg transition-all text-left"
-        >
-          <div className="w-14 h-14 rounded-xl bg-pink-100 flex items-center justify-center mb-6">
-            <BookOpen className="w-7 h-7 text-pink-600" />
-          </div>
-          <h3 className="text-xl font-semibold mb-3 text-gray-900">Week-by-Week Guide</h3>
-          <p className="text-gray-600">Detailed information about your baby's development and what to expect each week.</p>
-        </button>
+      {/* Quick Stats */}
+      <div className="grid md:grid-cols-3 gap-4 mb-8">
+        <div className="bg-gradient-to-br from-pink-50 to-white p-6 rounded-2xl border border-pink-200">
+          <div className="text-3xl font-bold text-pink-600 mb-1">Week {currentWeek}</div>
+          <div className="text-sm text-gray-600">Current Week</div>
+        </div>
+        <div className="bg-gradient-to-br from-pink-50 to-white p-6 rounded-2xl border border-pink-200">
+          <div className="text-3xl font-bold text-pink-600 mb-1">{reminders.filter(r => !r.completed).length}</div>
+          <div className="text-sm text-gray-600">Upcoming Reminders</div>
+        </div>
+        <div className="bg-gradient-to-br from-pink-50 to-white p-6 rounded-2xl border border-pink-200">
+          <div className="text-3xl font-bold text-pink-600 mb-1">{40 - currentWeek}</div>
+          <div className="text-sm text-gray-600">Weeks to Go</div>
+        </div>
+      </div>
 
-        <button
-          onClick={() => setCurrentView('faq')}
-          className="p-8 bg-white border-2 border-pink-200 rounded-2xl hover:shadow-lg transition-all text-left"
-        >
-          <div className="w-14 h-14 rounded-xl bg-pink-100 flex items-center justify-center mb-6">
-            <Baby className="w-7 h-7 text-pink-600" />
-          </div>
-          <h3 className="text-xl font-semibold mb-3 text-gray-900">AI FAQ Assistant</h3>
-          <p className="text-gray-600">Get instant answers to your pregnancy questions from our AI-powered assistant.</p>
-        </button>
+      {/* Navigation Tabs */}
+      <div className="bg-white rounded-2xl shadow-sm border border-pink-100 p-2">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+          <button
+            onClick={() => setCurrentView('weekly')}
+            className="flex flex-col items-center gap-3 p-6 rounded-xl hover:bg-pink-50 transition-all group"
+          >
+            <div className="w-14 h-14 rounded-full bg-pink-100 flex items-center justify-center group-hover:scale-110 transition-transform">
+              <BookOpen className="w-7 h-7 text-pink-600" />
+            </div>
+            <div className="text-center">
+              <div className="font-semibold text-gray-900">Weekly Guide</div>
+              <div className="text-xs text-gray-500 mt-1">Track progress</div>
+            </div>
+          </button>
 
-        <button
-          onClick={() => setCurrentView('reminders')}
-          className="p-8 bg-white border-2 border-pink-200 rounded-2xl hover:shadow-lg transition-all text-left"
-        >
-          <div className="w-14 h-14 rounded-xl bg-pink-100 flex items-center justify-center mb-6">
-            <Bell className="w-7 h-7 text-pink-600" />
-          </div>
-          <h3 className="text-xl font-semibold mb-3 text-gray-900">Doctor Reminders</h3>
-          <p className="text-gray-600">Never miss an appointment with smart reminders for checkups and tests.</p>
-        </button>
+          <button
+            onClick={() => setCurrentView('faq')}
+            className="flex flex-col items-center gap-3 p-6 rounded-xl hover:bg-pink-50 transition-all group"
+          >
+            <div className="w-14 h-14 rounded-full bg-pink-100 flex items-center justify-center group-hover:scale-110 transition-transform">
+              <Baby className="w-7 h-7 text-pink-600" />
+            </div>
+            <div className="text-center">
+              <div className="font-semibold text-gray-900">AI Assistant</div>
+              <div className="text-xs text-gray-500 mt-1">Ask questions</div>
+            </div>
+          </button>
 
-        <button
-          onClick={() => setCurrentView('tips')}
-          className="p-8 bg-white border-2 border-pink-200 rounded-2xl hover:shadow-lg transition-all text-left"
-        >
-          <div className="w-14 h-14 rounded-xl bg-pink-100 flex items-center justify-center mb-6">
-            <Stethoscope className="w-7 h-7 text-pink-600" />
-          </div>
-          <h3 className="text-xl font-semibold mb-3 text-gray-900">Prenatal Care Tips</h3>
-          <p className="text-gray-600">Personalized advice on nutrition, exercise, and wellness during pregnancy.</p>
-        </button>
+          <button
+            onClick={() => setCurrentView('reminders')}
+            className="flex flex-col items-center gap-3 p-6 rounded-xl hover:bg-pink-50 transition-all group"
+          >
+            <div className="w-14 h-14 rounded-full bg-pink-100 flex items-center justify-center group-hover:scale-110 transition-transform">
+              <Bell className="w-7 h-7 text-pink-600" />
+            </div>
+            <div className="text-center">
+              <div className="font-semibold text-gray-900">Reminders</div>
+              <div className="text-xs text-gray-500 mt-1">Track appointments</div>
+            </div>
+          </button>
+
+          <button
+            onClick={() => setCurrentView('tips')}
+            className="flex flex-col items-center gap-3 p-6 rounded-xl hover:bg-pink-50 transition-all group"
+          >
+            <div className="w-14 h-14 rounded-full bg-pink-100 flex items-center justify-center group-hover:scale-110 transition-transform">
+              <Stethoscope className="w-7 h-7 text-pink-600" />
+            </div>
+            <div className="text-center">
+              <div className="font-semibold text-gray-900">Care Tips</div>
+              <div className="text-xs text-gray-500 mt-1">Stay healthy</div>
+            </div>
+          </button>
+        </div>
       </div>
     </div>
   );
@@ -561,10 +610,10 @@ const PregnancyTracker = () => {
         {currentView !== 'home' && (
           <button
             onClick={() => setCurrentView('home')}
-            className="mb-8 flex items-center gap-2 px-4 py-2 text-gray-700 hover:text-pink-600 transition-colors"
+            className="flex items-center gap-2 mb-6 px-4 py-2 bg-white rounded-xl border-2 border-pink-200 text-gray-700 hover:bg-pink-50 transition-colors"
           >
-            <ArrowLeft className="w-4 h-4" />
-            <span className="font-medium">Back to Home</span>
+            <ArrowLeft className="w-5 h-5" />
+            Back to Home
           </button>
         )}
 

@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import MenstrualMode from "./pages/MenstrualMode";
+import MenstrualMode from "./pages/MensturalMode";
 import PregnancyMode from "./pages/PregnancyMode";
 import ConceiveMode from "./pages/ConceiveMode";
 import PostpartumMode from "./pages/PostpartumMode";
